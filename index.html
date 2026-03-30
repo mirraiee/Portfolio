@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patrick Cardeño — CS Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo">PC<span class="accent-dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+      <span class="toggle-icon" id="toggleIcon">◐</span>
+    </button>
+  </nav>
+
+  
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-eyebrow">
+        <span class="status-dot"></span>
+        <span>Available for opportunities</span>
+      </div>
+      <h1 class="hero-name">Patrick<br /><em>Cardeno</em></h1>
+      <div class="hero-meta">
+        <p class="hero-title">Computer Science Student</p>
+        <p class="hero-bio">
+          I build thoughtful software — interested in systems, human–computer interaction, and the overlap between them. Currently studying CS and looking for ways to create things that matter.
+        </p>
+      </div>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Work</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-deco" aria-hidden="true">
+      <div class="deco-ring deco-ring-1"></div>
+      <div class="deco-ring deco-ring-2"></div>
+      <div class="deco-grain"></div>
+    </div>
+  </section>
+
+  
+  <section class="section" id="projects">
+    <div class="container">
+      <header class="section-header">
+        <span class="section-label">01 — Projects</span>
+        <h2 class="section-title">Selected Work</h2>
+      </header>
+
+      <div class="projects-grid">
+
+        <article class="project-card" tabindex="0">
+          <div class="card-top">
+            <span class="project-number">001</span>
+            <div class="card-links">
+              <a href="https://github.com/jmmacayanan/U-ReaL_WebExtension" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">U-ReaL WebExtension</h3>
+          <p class="project-desc">U-ReaL secures Gmail inboxes by scanning and blocking malicious links in real time using machine learning, with no setup required.</p>
+          <div class="tech-stack">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Flask</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">HTML</span>
+            
+          </div>
+        </article>
+
+        <article class="project-card" tabindex="0">
+          <div class="card-top">
+            <span class="project-number">002</span>
+            <div class="card-links">
+              <a href="https://github.com/mirraiee/MealPlanner-ADET" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">MealPlanner</h3>
+          <p class="project-desc">Meal Diary is a simple meal planner app that allows users to create and organize recipes with details like ingredients and instructions, helping streamline meal planning.</p>
+          <div class="tech-stack">
+            <span class="tech-tag">Dart</span>
+          </div>
+        </article>
+
+
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section section-alt" id="certifications">
+    <div class="container">
+      <header class="section-header">
+        <span class="section-label">02 — Certifications</span>
+        <h2 class="section-title">Credentials</h2>
+      </header>
+
+      <div class="certs-grid">
+
+        <div class="cert-card" tabindex="0">
+          <div class="cert-icon" aria-hidden="true">✦</div>
+          <div class="cert-info">
+            <h3 class="cert-name">Legacy JavaScript Algorithms and Data Structures V7</h3>
+            <p class="cert-org">freeCodeCamp</p>
+          </div>
+          <span class="cert-year">2026</span>
+        </div>
+
+        <div class="cert-card" tabindex="0">
+          <div class="cert-icon" aria-hidden="true">✦</div>
+          <div class="cert-info">
+            <h3 class="cert-name">Frontend Development Libraries V8</h3>
+            <p class="cert-org">freeCodeCamp</p>
+          </div>
+          <span class="cert-year">2026</span>
+        </div>
+
+        <div class="cert-card" tabindex="0">
+          <div class="cert-icon" aria-hidden="true">✦</div>
+          <div class="cert-info">
+            <h3 class="cert-name">Lorem ipsum dolor sit amet</h3>
+            <p class="cert-org">Lorem ipsum dolor sit amet</p>
+          </div>
+          <span class="cert-year">2023</span>
+        </div>
+
+        <div class="cert-card" tabindex="0">
+          <div class="cert-icon" aria-hidden="true">✦</div>
+          <div class="cert-info">
+            <h3 class="cert-name">Lorem ipsum dolor sit amet</h3>
+            <p class="cert-org">Lorem ipsum dolor sit amet</p>
+          </div>
+          <span class="cert-year">2023</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section" id="contact">
+      <header class="section-header">
+        <span class="section-label">03 — Contact</span>
+        <h2 class="section-title">Let's Connect</h2>
+      </header>
+
+      <div class="contact-inner">
+        <p class="contact-blurb">
+          I'm open to internships, research opportunities, and interesting collaborations. Drop me a line — I try to respond within a day or two.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:patrickcardenio@yahoo.com" class="contact-link">
+            <span class="contact-link-label">Email</span>
+            <span class="contact-link-value">patrickcardenio@yahoo.com</span>
+            <svg class="arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <span class="contact-link-label">GitHub</span>
+            <span class="contact-link-value">github.com/mirraiee</span>
+            <svg class="arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+          <a href="https://linkedin.com/in/pldcardeno/" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <span class="contact-link-label">LinkedIn</span>
+            <span class="contact-link-value">linkedin.com/in/pldcardeno/</span>
+            <svg class="arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-name">Patrick Cardeño<span class="accent-dot">.</span></span>
+      <span class="footer-copy">Designed &amp; built with care · <span id="year"></span></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
